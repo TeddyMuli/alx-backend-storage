@@ -1,0 +1,2 @@
+// Script that lists all files with the name "Holberton school" in their collection.
+db.school.find({ name: "Holberton school" }).forEach(printjson);
